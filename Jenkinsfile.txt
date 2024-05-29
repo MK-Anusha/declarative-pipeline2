@@ -9,7 +9,7 @@ pipeline {
          }
      stage('build') {
          steps {
-            build 'user-role'
+            build 'maven-job'
                } 
           }
       stage('test') {
